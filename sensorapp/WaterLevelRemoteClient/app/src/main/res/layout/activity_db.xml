@@ -4,13 +4,13 @@
     tools:context="iitb.rs.h15portal.db"
     android:background="#ffdfdfdf">
 
-   
+
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@id/app_bar">
+        >
 
         <LinearLayout
             android:orientation="horizontal"
@@ -34,8 +34,9 @@
 
         </LinearLayout>
 
-        <ListView
-            android:id="@+id/list"
+
+
+        <ListView android:id="@android:id/list"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
 
